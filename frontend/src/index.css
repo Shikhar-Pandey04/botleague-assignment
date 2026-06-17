@@ -1,0 +1,18 @@
+/* Internet se sci-fi (Orbitron) font import kar rahe hain */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom class jisse saari headings ekdum boxy aur tech wali ban jayengi */
+.font-heading {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 0.05em; /* Thoda sa words ke beech gap (Figma jaisa) */
+}
+
+/* Page ka background color hamesha dark rahe uske liye */
+body {
+  background-color: #0a0a0c;
+  color: white;
+}
